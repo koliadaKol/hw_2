@@ -1,6 +1,6 @@
 import turtle
 
-turtle.speed(100)
+turtle.speed(0)
 def circle():
     turtle.shape('turtle')
     for i in range(360):
