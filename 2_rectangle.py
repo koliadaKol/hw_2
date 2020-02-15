@@ -1,14 +1,12 @@
 import turtle
-
+from regular_polygon import mp
 
 def rectangle():
     turtle.shape('turtle')
-    for i in range(4):
-        turtle.forward(100)
-        turtle.left(90)
+    x=4
+    mp()
 
 
 if __name__ == "__main__":
     rectangle()
-    while True:
-        pass
+    turtle.done()
