@@ -1,6 +1,7 @@
 import turtle
 import math
 
+
 turtle.speed(0)
 def spiral(n, h = 10 , m = 60, r=10):
     for i in range(n):

@@ -7,7 +7,6 @@ def circle():
         turtle.forward(3)
         turtle.right(1)
 
-
 if __name__ == "__main__":
     circle()
     while True:

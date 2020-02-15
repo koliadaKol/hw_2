@@ -1,5 +1,5 @@
 import turtle
-
+turtle.speed(1)
 def example():
     turtle.shape('turtle')
     turtle.forward(50)
