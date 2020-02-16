@@ -5,7 +5,7 @@ turtle.speed(0)
 
 def circle():
     turtle.shape('turtle')
-    n=12
+    n=50
     for i in range(n):
         turtle.left(360/n)
         turtle.forward(100)
@@ -14,5 +14,4 @@ def circle():
 
 if __name__ == "__main__":
     circle()
-    while True:
-        pass
+    turtle.done()

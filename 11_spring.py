@@ -1,8 +1,11 @@
 import turtle
 
-turtle.speed(0)
+turtle.speed(1000)
 def spring():
     turtle.shape('turtle')
+    turtle.penup()
+    turtle.goto(-500,0)
+    turtle.pendown()
     turtle.left(90)
     for j in range(5):
         for i in range(180):
