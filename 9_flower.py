@@ -4,7 +4,7 @@ turtle.speed(1000)
 def flower():
     turtle.shape('turtle')
 
-    x =6
+    x =20
     for j in range(x):
         for i in range(180):
             turtle.forward(3)

@@ -1,7 +1,7 @@
 import turtle
 
 turtle.speed(1000)
-def spring():
+def spring(n =1):
     turtle.shape('turtle')
     turtle.penup()
     turtle.goto(-500,0)
@@ -14,6 +14,12 @@ def spring():
         for i in range(90):
             turtle.right(2)
             turtle.forward(2)
+        n += 1
+        turtle.width(n+5)
+        if n >= 3:
+            turtle.color("red")
+        else:
+            turtle.color("black")
 
 
 if __name__ == "__main__":
