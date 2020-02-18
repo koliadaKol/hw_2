@@ -19,8 +19,8 @@ def polygon(R=10, n=3):
 
 def reguolar_polygon():
     turtle.shape('turtle')
-    turtle.color()
-    turtle.width(50)
+    turtle.color('red')
+    turtle.width(5)
     for i in range(10):
         polygon(10+20*i, 3+i)
         turtle.penup()
