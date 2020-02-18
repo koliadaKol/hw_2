@@ -1,21 +1,20 @@
 import turtle
+import math
 
+def polygon(R=10, n=3):
+    a = 2*R*math.sin(math.pi/n)
+    b = 180 - (180*(n-2)/2*n)
+    print(b)
+    alpha = 180*(n-2)/n
+    gamma = 360/n
+    turtle.left(b)
+    for i in range (n):
+        turtle.forward(a)
+        turtle.left(gamma)
 
 def reguolar_polygon():
     turtle.shape('turtle')
-    x =  3
-    for i in range(10):
-        for i in range(x):
-            turtle.left(360 /-x)
-            turtle.forward(20)
-
-        x = x +1
-        turtle.right(90)
-        turtle.penup()
-        turtle.forward(20)
-        turtle.pendown()
-
+    polygon(50,6)
 if __name__ == "__main__":
     reguolar_polygon()
-    while True:
-        pass
+    turtle.done()
