@@ -1,6 +1,6 @@
 import turtle
 
-turtle.speed(1000)
+turtle.speed(100)
 def flower():
     turtle.shape('turtle')
 
