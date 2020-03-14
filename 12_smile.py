@@ -3,7 +3,6 @@ import turtle
 turtle.speed(1000)
 def smile():
     turtle.shape('turtle')
-
     turtle.begin_fill()
     for i in range(360):
         turtle.forward(3)
